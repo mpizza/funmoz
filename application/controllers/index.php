@@ -6,7 +6,13 @@ class Index extends CI_Controller {
   }
   
 	public function index(){
+	  $this->load->library('Layout');
+		$data['title'] = 'title';
+		$data['heading'] = 'heading text';
+		$data['content'] = $row['dataurl'];
+		
 		$this->layout->view('index_page', $data);
+		//$this->load->view('blog_message');
 	}
 
   private function _utility(){  
