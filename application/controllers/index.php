@@ -9,7 +9,7 @@ class Index extends CI_Controller {
 	  $this->load->library('Layout');
 		$data['title'] = 'title';
 		$data['heading'] = 'heading text';
-		$data['content'] = $row['dataurl'];
+		$data['content'] = 'hi';
 		
 		$this->layout->view('index_page', $data);
 		//$this->load->view('blog_message');
