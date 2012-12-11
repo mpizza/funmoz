@@ -8,8 +8,8 @@ class Xmas extends CI_Controller {
 	public function index(){
 	  $this->load->library('Layout');
 		$data['title'] = 'Firefox 聖誕報佳音';
-		$data['keyword'] = 'Firefox 聖誕報佳音、';
-		$data['meta_desc'] = 'Firefox OS,Firefox 繁體中文,Firefox 繁體中文下載,Firefox 下載,Firefox for Android,Firefox Mobile,Firefox 行動版,Firefox Android,Mozilla, Firefox, Thunderbird, Gecko, Boot to Gecko, B2G, Boot 2 Gecko, 謀智, 火狐, 雷鳥, Open Source, Free Software, Open Web, 開放原始碼, 開放源碼, 開源, 自由軟體, 開放網';
+		$data['meta_desc'] = '我願意和 Firefox 一同守護網路的開放自由創新，相信每個人都可以依個人意願決定自己的網路使用方式！我就是愛網路！';
+		$data['keyword'] = 'Firefox OS,Firefox 繁體中文,Firefox 繁體中文下載,Firefox 下載,Firefox for Android,Firefox Mobile,Firefox 行動版,Firefox Android,Mozilla, Firefox, Thunderbird, Gecko, Boot to Gecko, B2G, Boot 2 Gecko, 謀智, 火狐, 雷鳥, Open Source, Free Software, Open Web, 開放原始碼, 開放源碼, 開源, 自由軟體, 開放網';
 		$data['ogimage'] = 'http://fun.mozilla.com.tw/assets/pic/xmas2012/share_FB.jpg';
 		$data['js_arr'] ='<script type="text/javascript" src="/assets/js/snowfall.min.jquery.js"></script><script type="text/javascript" src="/assets/js/xmas.js"></script>';
 		

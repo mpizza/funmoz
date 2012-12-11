@@ -96,11 +96,6 @@
         <img src="/assets/pic/xmas2012/icon/Firefox_DEV.png" alt="Firefox Developer Tools 瀏覽器內建開發者工具" />
         <div class="icon-desc">Firefox Developer Tools 瀏覽器內建開發者工具</div>
       </li>
-      <li class="default" data-use="0" id="icon-12">
-        <div class="del_box"></div>
-        <img src="/assets/pic/xmas2012/icon/Bugzilla.png" alt="Bugzilla 程式錯誤回報系統" />
-        <div class="icon-desc">Bugzilla 程式錯誤回報系統</div>
-      </li>
       <li class="default" data-use="0" id="icon-13">
         <div class="del_box"></div>
         <img src="/assets/pic/xmas2012/icon/firebug.png" alt="Firebug 網頁開發除錯工具" />
@@ -110,6 +105,11 @@
         <div class="del_box"></div>
         <img src="/assets/pic/xmas2012/icon/Gecko.png" alt="Gecko 內存於 Firefox 的核心引擎" />
         <div class="icon-desc">Gecko 內存於 Firefox 的核心引擎</div>
+      </li>
+      <li class="default" data-use="0" id="icon-12" style="height:150px;">
+        <div class="del_box"></div>
+        <img src="/assets/pic/xmas2012/icon/Bugzilla.png" alt="Bugzilla 程式錯誤回報系統" />
+        <div class="icon-desc">Bugzilla 程式錯誤回報系統</div>
       </li>
     </ul>
     </div>
