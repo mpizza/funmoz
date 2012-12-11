@@ -119,16 +119,6 @@
       <input type="button" value="delete" id="del_bt" />
     </div>
   </section>
-  <div id="fb-root"></div>
-  <script>
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1&appId=266112973491035";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
   <!-- Place this tag after the last +1 button tag. -->
   <script type="text/javascript">
     window.___gcfg = {lang: 'zh-TW'};

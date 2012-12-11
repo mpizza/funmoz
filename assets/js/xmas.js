@@ -88,11 +88,13 @@ $(function(){
     $.post('/xmas/save_canvas/',{dataurl:dataimgurl, u_email:u_email, u_checked:u_check},function(data){
       //$('#test').html(data);
       if(data!=='failed'){
-        window.location = '/xmas/cards/'+data+'/';
+        //window.location = '/xmas/cards/'+data+'/';
+        alert('/xmas/cards/'+data+'/');
       }
     });
     
   }); //end of #save_bt click
+  
   $('#snow_place').snowfall({shadow : true, round : true,  minSize: 1, maxSize:5, flakeCount:20, maxSpeed:1}); // add shadows
   
 })
