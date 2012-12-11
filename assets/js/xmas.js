@@ -83,7 +83,13 @@ $(function(){
     pubs.valid = false;
     pubs.draw();
     pubs.showFillText(u_text);
+    var move=0;
+    if(parseInt(window.pageYOffset)>400){
+      move=parseInt(window.pageYOffset)-150;
+    }
+    $('html, body').animate({scrollTop:move}, 1000);
     
+    $('#outer-wrapper').append("<div id='mask' style='height:"+$('body').height()+"px'><div class='role_info fake_loder'><img src='/assets/pic/loading.gif' style='top:"+move+"px;'></div></div>");
     var dataimgurl = canvas.toDataURL("image/png");
     $.post('/xmas/save_canvas/',{dataurl:dataimgurl, u_email:u_email, u_checked:u_check},function(data){
       //$('#test').html(data);
@@ -91,7 +97,6 @@ $(function(){
         window.location = '/xmas/cards/'+data+'/';
       }
     });
-    
   }); //end of #save_bt click
   
   $('#snow_place').snowfall({shadow : true, round : true,  minSize: 1, maxSize:5, flakeCount:20, maxSpeed:1}); // add shadows
