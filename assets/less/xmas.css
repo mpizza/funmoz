@@ -7,7 +7,7 @@
   visibility: hidden;
 }
 div#outer-wrapper {
-  background: url('/assets/less/img/xmas/BG.jpg') no-repeat center;
+  background: url('/assets/less/img/xmas/BG.jpg') no-repeat;
 }
 div#decorate {
   background: url('/assets/less/img/xmas/star.png') no-repeat;
