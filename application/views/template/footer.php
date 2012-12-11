@@ -6,7 +6,7 @@
           <div id="footer-wrapper">
             <div id="footer-logo" class="footer-content">
               <a href="http://mozilla.org" target="_blank">
-                <img src="/assets/css/img/mozcomtw/footer-mozilla.png" alt="mozilla" border="0" />
+                <img src="/assets/less/img/mozcomtw/footer-mozilla.png" alt="mozilla" border="0" />
               </a>
             </div>
             <div id="sub-footer" class="footer-content">
