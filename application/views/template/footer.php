@@ -55,6 +55,13 @@
 		<?php echo $js_arr;?>
 		<script type="text/javascript">
       $(function(){
+        $('.fb').on('click',function(e){
+          e.preventDefault();
+          //_gaq.push(['_trackEvent', 'firefoxandbbs', 'share', '']);
+          var encode_url=fixedEncodeURI($(this).attr('href'));
+          window.open(encode_url);
+        });
+        
         $('.mozilla').click(function(e){
           e.preventDefault();
           if ($('.click_mozilla').is('*')){
@@ -80,6 +87,14 @@
           }
         });
 		  });
+		  
+    function fixedEncodeURI (str) {
+      if(navigator.appVersion.indexOf('MSIE 9.0')!=-1){
+      str=encodeURI(str);
+      }
+      //return encodeURI(str).replace(/%5B/g, '[').replace(/%5D/g, ']');
+      return str;
+    }
 		</script>
     <noscript>
       <style>

@@ -191,6 +191,7 @@ section.main_section div.icon_wrapper ul li img:hover {
   cursor: pointer;
 }
 section.bt_content {
+  color: #fff;
   margin: 60px 0px 20px 20px;
 }
 section.bt_content:after {
@@ -199,6 +200,9 @@ section.bt_content:after {
   height: 0;
   clear: both;
   visibility: hidden;
+}
+section.bt_content h3 {
+  color: #fff;
 }
 div.c_bt {
   display: block;
@@ -285,10 +289,10 @@ section.social_content h2 {
   color: #fff;
 }
 section.again_bt {
-  margin: 20px 0 0 0;
+  margin: 50px 0 0 0;
 }
 section.again_bt .c_bt {
-  margin: 10px 0 0 420px;
+  margin: 10px 0 0 10px;
 }
 section.again_bt:after {
   content: ".";
@@ -298,7 +302,78 @@ section.again_bt:after {
   visibility: hidden;
 }
 div.social-tool {
-  margin: 10px 0 0 420px;
+  margin: 10px 0 0 20px;
+}
+ul.sharelist {
+  display: inline-block;
+  margin: 25px 0px 0px 0px;
+  width: 500px;
+}
+ul.sharelist:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+ul.sharelist li {
+  margin: 0 0 0 20px;
+  float: left;
+}
+ul.sharelist a,
+a.fanspage,
+a.fb {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url('/assets/less/img/mozcomtw/shareicon-small.png') no-repeat transparent;
+  background-position: 0px 0px;
+  text-indent: -10000px;
+}
+p.inode {
+  color: #f00;
+  font-size: 20px;
+}
+ul.sharelist a.fb,
+a.fb {
+  background-position: 0 -90px;
+}
+ul.sharelist a.gp {
+  background: none;
+}
+ul.sharelist li#gplist {
+  height: 50px;
+}
+ul.sharelist li.default-gp {
+  padding: 10px 0 0 0;
+}
+ul.sharelist li.show-gp a.gp {
+  z-index: 0;
+  background: none;
+}
+ul.sharelist li.show-gp div.gplusonebox {
+  z-index: 10;
+}
+ul.sharelist a.pk {
+  background-position: 0 -270px;
+}
+ul.sharelist a.em {
+  background-position: 0 0;
+}
+.gplusonebox {
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  position: relative;
+  top: -30px;
+  left: 0px;
+}
+.url_link {
+  margin: 0 0 0 20px;
+  color: #fff;
+}
+.url_link input {
+  width: 320px;
 }
 @media all and (min-width: 1440px) and (max-width: 1920px) {
   div#outer-wrapper {

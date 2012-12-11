@@ -147,12 +147,24 @@
     <input name="id_privacy" id="id_privacy" type="checkbox">
     <span class="id_privacy_title">我要訂閱 Mozilla 電子報並已同意 Mozilla 的&nbsp;
     <a target="_blank" href="https://www.mozilla.org/en-US/privacy-policy">隱私資料政策</a></span><br />
-    <div class="c_bt" id="c_save"><span class="bt_title">存檔</span></div>
-    <div class="c_bt" id="c_reset"><span class="bt_title">重新佈製</span></div>
   </section>
   <section class="social_content">
-    <!-- Place this tag where you want the +1 button to render. -->
-    <div class="g-plusone" data-size="medium"></div>
-    <div class="fb-like" data-href="http://fun.mozilla.com.tw/xmas/" data-send="false" data-layout="button_count" data-width="250" data-show-faces="false" data-font="arial"></div>
+    <div class="c_bt" id="c_save"><span class="bt_title">存檔</span></div>
+    <div class="c_bt" id="c_reset"><span class="bt_title">重新佈製</span></div>
+    <ul class="sharelist">
+        <li>
+          <a class="fb" target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http://fun.mozilla.com.tw/xmas/&p[title]=<?php echo $title; ?>&p[images][0]=http://fun.mozilla.com.tw/assets/pic/xmas2012/share_FB.jpg&p[summary]=<?php echo $meta_desc; ?>">
+            Facebook
+          </a>
+        </li>
+        <li>
+          <a class="pk" href="javascript: void(window.open('http://www.plurk.com/?qualifier=shares&amp;status=' .concat(encodeURIComponent('http://fun.mozilla.com.tw/xmas/')) .concat(' ') .concat('(') .concat(encodeURIComponent('Firefox 聖誕報佳音')) .concat(')')));">
+            [推到Plurk]
+          </a>
+        </li>
+        <li id="gplist" class="default-gp">
+          <div class="g-plusone" data-size="medium" data-annotation="inline"  data-href="http://fun.mozilla.com.tw/xmas/" data-width="120"></div>
+        </li>
+      </ul>
   </section>
 </div>

@@ -23,7 +23,6 @@ var TO_RADIANS = Math.PI/180,
     initY = 200;
     
 $(function(){
-  $('#snow_place').snowfall({shadow : true, round : true,  minSize: 1, maxSize:5, flakeCount:20, maxSpeed:1}); // add shadows
   pubs = new CanvasState(document.getElementById('pad'), BGimage);
   setBGsrc($('li.bg-check img').attr('data-original'));
   $('ul#bg-select li').on('click', function(){
@@ -94,6 +93,7 @@ $(function(){
     });
     
   }); //end of #save_bt click
+  $('#snow_place').snowfall({shadow : true, round : true,  minSize: 1, maxSize:5, flakeCount:20, maxSpeed:1}); // add shadows
   
 })
 
@@ -292,8 +292,8 @@ function CanvasState(canvas, bgimage) {
   
   // **** Options! ****
   
-  this.selectionColor = '#CC0000';
-  this.selectionWidth = 2;
+  this.selectionColor = '#eee';
+  this.selectionWidth = 1;
   /*  
   this.interval = 30;
   setInterval(function() { myState.draw(); }, myState.interval);

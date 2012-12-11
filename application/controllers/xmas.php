@@ -46,6 +46,7 @@ class Xmas extends CI_Controller {
 		$this->load->model('Xmas_db_model');
 		$getPath = $this->Xmas_db_model->get_path($id);
 		$data['content'] = '<img class="img-card" src="/assets/upload/'.$getPath.'" alt="Firefox 電子聖誕卡" />';
+		$data['u_imgsrc'] = '/assets/upload/'.$getPath;
 		
 		$this->layout->view('xmas_card', $data);
 	}

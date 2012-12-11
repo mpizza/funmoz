@@ -28,15 +28,33 @@
   <section>
     <?php echo $content;?>
     <!-- Place this tag where you want the +1 button to render. -->
-    <div class="social-tool">
-      <div class="g-plusone" data-size="medium" href="<?php echo $cards_url; ?>"></div>
-      <div class="fb-like" data-href="<?php echo $cards_url; ?>" data-send="false" data-layout="button_count" data-width="250" data-show-faces="false" data-font="arial"></div>
-    </div>
   </section>
   <section class="again_bt">
     <div class="c_bt">
       <a href="/xmas/"><span class="bt_title">再玩一次</span></a>
     </div>
+    <div class="c_bt">
+      <a href="<?php echo $u_imgsrc;?>" target="_blank"><span class="bt_title">另存卡片</span></a>
+    </div>
+    <ul class="sharelist">
+      <li>
+        <a class="fb" target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=<?php echo $cards_url; ?>&p[title]=<?php echo $title; ?>&p[images][0]=http://fun.mozilla.com.tw/assets/pic/xmas2012/share_FB.jpg&p[summary]=<?php echo $meta_desc; ?>">
+          Facebook
+        </a>
+      </li>
+      <li>
+        <a class="pk" href="javascript: void(window.open('http://www.plurk.com/?qualifier=shares&amp;status=' .concat(encodeURIComponent('<?php echo $cards_url; ?>')) .concat(' ') .concat('(') .concat(encodeURIComponent('Firefox 聖誕報佳音')) .concat(')')));">
+          [推到Plurk]
+        </a>
+      </li>
+      <li id="gplist" class="default-gp">
+        <div class="g-plusone" data-size="medium" data-annotation="inline"  data-href="<?php echo $cards_url; ?>" data-width="120"></div>
+      </li>
+    </ul>
+  </section>
+  <section class="url_link">
+  將您的專屬網址分享給好友： <br/>
+  <input type="text" value="<?php echo $cards_url; ?>" id="c_url">
   </section>
 </div>
 <section class="social_content">
