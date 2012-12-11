@@ -119,16 +119,6 @@
       <input type="button" value="delete" id="del_bt" />
     </div>
   </section>
-  <!-- Place this tag after the last +1 button tag. -->
-  <script type="text/javascript">
-    window.___gcfg = {lang: 'zh-TW'};
-  
-    (function() {
-      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-      po.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-    })();
-  </script>
   <section class="bt_content">
     <textarea name="u_text" id="u_text" class="info" value="" placeholder="請輸入您的祝福！"></textarea><br />
     字數：<span id="word_count">0</span>/25<br/>
