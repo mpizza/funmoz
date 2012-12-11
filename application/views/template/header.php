@@ -18,8 +18,6 @@
   <meta property="og:title" content="<?php echo $title; ?>" />
   <meta property="og:description" content="<?php echo $meta_desc; ?>" />
   <meta property="og:image" content="<?php echo $ogimage; ?>" />
-  <meta name="google-site-verification" content="ClhuMhUFrYEw-zfAsWNx5l7JzCyXoFESHZhnirdMcsA" />
-  <meta name="msvalidate.01" content="0DCEE643E9ACDEE9FDC2E8036E0CFB78" />
   <link rel="stylesheet" href="/assets/less/moz.css"/>
   <link rel="stylesheet" href="/assets/less/xmas.css"/>
   <title>
