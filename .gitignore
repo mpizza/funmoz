@@ -1,4 +1,6 @@
-assets/
+assets/less/img/
+assets/pic/
+assets/upload/
 application/config/database.php
 application/models/xmas_db_model.php
 user_guide/

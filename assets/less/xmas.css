@@ -1,0 +1,366 @@
+/*clear*/
+.after_close {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+div#outer-wrapper {
+  background: url('/assets/less/img/xmas/BG.jpg') no-repeat center;
+}
+div#decorate {
+  background: url('/assets/less/img/xmas/star.png') no-repeat;
+  width: 390px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 450px;
+}
+#main-feature {
+  margin: 20px 0 0 0;
+}
+#main-feature div#header-fx {
+  background: url('/assets/less/img/xmas/slogan.png') no-repeat;
+}
+#main-feature div#header-fx h1,
+#main-feature div#header-fx h2 {
+  text-indent: -1000000px;
+  margin: 0px;
+}
+#main-feature div#feature-des p {
+  font-size: 16px;
+  line-height: 1.2em;
+  width: 710px;
+  color: #fff;
+}
+#main-feature div#feature-des div#snow-house {
+  background: url('/assets/less/img/xmas/snow.png') no-repeat;
+  width: 212px;
+  height: 284px;
+  position: absolute;
+  top: 70px;
+  left: 750px;
+}
+#main-content {
+  margin: 30px 0 0 0;
+  background: url('/assets/less/img/xmas/BG-2.png') no-repeat 0px 0px;
+  position: relative;
+  overflow: hidden;
+}
+div.bg-menu {
+  position: absolute;
+  top: 0px;
+  left: -3px;
+  z-index: 2;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+  background: rgba(255, 255, 255, 0.4);
+  height: 100%;
+  -webkit-border-top-left-radius: 50px;
+  -webkit-border-bottom-left-radius: 50px;
+  -moz-border-radius-topleft: 50px;
+  -moz-border-radius-bottomleft: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+div.bg-menu div.sh_bt {
+  float: right;
+}
+div.bg-menu.hide-menu {
+  left: -105px;
+}
+div.bg-menu:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+ul#bg-select {
+  width: 70px;
+  padding: 0px;
+  margin: 70px 0 0 20px;
+  -webkit-transition: all linear 0.15s;
+  -moz-transition: all linear 0.15s;
+  -o-transition: all linear 0.15s;
+  -ms-transition: all linear 0.15s;
+  transition: all linear 0.15s;
+  float: left;
+}
+ul#bg-select.hide {
+  height: 0px;
+}
+ul#bg-select li {
+  width: 100%;
+  margin-bottom: 20px;
+}
+ul#bg-select li img {
+  width: 100%;
+  border: 0px;
+}
+ul#bg-select li img:hover {
+  cursor: pointer;
+}
+section.main_section:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+section.main_section div.canvas_wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 802px;
+  height: 602px;
+  margin: 160px 0 0 20px;
+  float: left;
+}
+section.main_section div.canvas_wrapper canvas#pad {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+section.main_section div.icon_wrapper {
+  float: left;
+  width: 120px;
+  margin: 200px 0 0 0px;
+  background: #fff;
+}
+section.main_section div.icon_wrapper ul {
+  margin: 0px;
+  width: 95%;
+  height: 505px;
+  overflow-y: auto;
+}
+section.main_section div.icon_wrapper ul li.default {
+  position: relative;
+  display: block;
+}
+section.main_section div.icon_wrapper ul li.default {
+  height: 85px;
+}
+section.main_section div.icon_wrapper ul li.default img {
+  margin: 10px 0 0 10px;
+  width: 70px;
+}
+section.main_section div.icon_wrapper ul li.default div.icon-desc {
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: -40px;
+  left: 0px;
+  padding: 3px 0 3px 3px;
+  color: #fff;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+  z-index: -2;
+}
+section.main_section div.icon_wrapper ul li.default div.icon-desc:hover {
+  cursor: pointer;
+}
+section.main_section div.icon_wrapper ul li.default:hover div.icon-desc {
+  bottom: 3px;
+  z-index: 2;
+}
+section.main_section div.icon_wrapper ul li.default div.del_box {
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  display: none;
+  width: 25px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0) url('/assets/less/img/xmas/button_5.png') no-repeat;
+  background-position: -48px -2px;
+}
+section.main_section div.icon_wrapper ul li.used div.del_box {
+  display: block;
+}
+section.main_section div.icon_wrapper ul li img {
+  width: 100%;
+}
+section.main_section div.icon_wrapper ul li img:hover {
+  cursor: pointer;
+}
+section.bt_content {
+  margin: 60px 0px 20px 20px;
+}
+section.bt_content:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+div.c_bt {
+  display: block;
+  padding: 5px;
+  font-size: 16px;
+  width: 100px;
+  text-align: center;
+  margin: 20px 0 0 -10px;
+  float: left;
+  width: 136px;
+  height: 75px;
+  color: #000;
+  background: url('/assets/less/img/xmas/button_1.png') no-repeat;
+}
+div.c_bt span.bt_title {
+  display: block;
+  margin: 10px 0 0 0;
+  font-weight: bold;
+}
+div.c_bt:hover {
+  cursor: pointer;
+}
+div.c_bt#c_reset {
+  background: url('/assets/less/img/xmas/button_2.png') no-repeat;
+}
+.menu-bt {
+  display: block;
+  width: 29px;
+  height: 131px;
+  margin: 50px -30px 0 20px;
+  text-indent: -2000px;
+  background: url('/assets/less/img/xmas/button_4.png') no-repeat;
+}
+.menu-bt:hover {
+  cursor: pointer;
+}
+span#show {
+  background: url('/assets/less/img/xmas/button_3.png') no-repeat;
+}
+div#tool {
+  position: absolute;
+  display: none;
+}
+div#tool input {
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+  background: rgba(255, 255, 255, 0) url('/assets/less/img/xmas/button_5.png') no-repeat 0px -2px;
+  width: 25px;
+  height: 25px;
+  text-indent: -10000000px;
+}
+div#tool input#right_bt {
+  background-position: -25px -2px;
+}
+div#tool input#del_bt {
+  width: 25px;
+  height: 25px;
+  background-position: -48px -2px;
+}
+.info {
+  width: 260px;
+  margin: 5px 0;
+}
+#u_text {
+  width: 800px;
+  height: 30px;
+  margin: 5px 0;
+}
+img.img-card {
+  margin: 150px 0 0 80px;
+}
+div#snow_place {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 160px;
+  height: 130px;
+}
+section.social_content {
+  margin: 0 0 40px 20px;
+}
+section.social_content h2 {
+  color: #fff;
+}
+section.again_bt {
+  margin: 20px 0 0 0;
+}
+section.again_bt .c_bt {
+  margin: 10px 0 0 420px;
+}
+section.again_bt:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+div.social-tool {
+  margin: 10px 0 0 420px;
+}
+@media all and (min-width: 1440px) and (max-width: 1920px) {
+  div#outer-wrapper {
+    -moz-background-size: 1920px 2500px;
+    /* Gecko 1.9.2 (Firefox 3.6) */
+  
+    -o-background-size: 1920px 2500px;
+    /* Opera 9.5 */
+  
+    -webkit-background-size: 1920px 2500px;
+    /* Safari 3.0 */
+  
+    background-size: 1920px 2500px;
+    /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+  
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1440px) {
+  div#outer-wrapper {
+    -moz-background-size: 1440px 1875px;
+    /* Gecko 1.9.2 (Firefox 3.6) */
+  
+    -o-background-size: 1440px 1875px;
+    /* Opera 9.5 */
+  
+    -webkit-background-size: 1440px 1875px;
+    /* Safari 3.0 */
+  
+    background-size: 1440px 1875px;
+    /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+  
+  }
+}
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  div#outer-wrapper {
+    -moz-background-size: 1280px 1667px;
+    /* Gecko 1.9.2 (Firefox 3.6) */
+  
+    -o-background-size: 1280px 1667px;
+    /* Opera 9.5 */
+  
+    -webkit-background-size: 1280px 1667px;
+    /* Safari 3.0 */
+  
+    background-size: 1280px 1667px;
+    /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+  
+  }
+}
+@media all and (max-width: 1024px) {
+  div#outer-wrapper {
+    -moz-background-size: 1024px 1333px;
+    /* Gecko 1.9.2 (Firefox 3.6) */
+  
+    -o-background-size: 1024px 1333px;
+    /* Opera 9.5 */
+  
+    -webkit-background-size: 1024px 1333px;
+    /* Safari 3.0 */
+  
+    background-size: 1024px 1333px;
+    /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+  
+  }
+}

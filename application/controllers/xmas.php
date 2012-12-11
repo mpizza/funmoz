@@ -7,8 +7,12 @@ class Xmas extends CI_Controller {
   
 	public function index(){
 	  $this->load->library('Layout');
-		$data['title'] = 'title';
-		$data['heading'] = 'heading text';
+		$data['title'] = 'Firefox 聖誕報佳音';
+		$data['keyword'] = 'Firefox 聖誕報佳音、';
+		$data['meta_desc'] = 'Firefox OS,Firefox 繁體中文,Firefox 繁體中文下載,Firefox 下載,Firefox for Android,Firefox Mobile,Firefox 行動版,Firefox Android,Mozilla, Firefox, Thunderbird, Gecko, Boot to Gecko, B2G, Boot 2 Gecko, 謀智, 火狐, 雷鳥, Open Source, Free Software, Open Web, 開放原始碼, 開放源碼, 開源, 自由軟體, 開放網';
+		$data['ogimage'] = 'http://fun.mozilla.com.tw/assets/pic/xmas2012/share_FB.jpg';
+		$data['js_arr'] ='<script type="text/javascript" src="/assets/js/snowfall.min.jquery.js"></script><script type="text/javascript" src="/assets/js/xmas.js"></script>';
+		
 		$this->layout->view('xmas_index', $data);
 	}
 	
@@ -33,11 +37,15 @@ class Xmas extends CI_Controller {
 	
 	function cards($id){
 	  $this->load->library('Layout');
-		$data['title'] = 'title';
-		$data['heading'] = 'heading text';
+		$data['title'] = 'Firefox 聖誕報佳音';
+		$data['keyword'] = 'Firefox 聖誕報佳音、';
+		$data['meta_desc'] = 'Firefox OS,Firefox 繁體中文,Firefox 繁體中文下載,Firefox 下載,Firefox for Android,Firefox Mobile,Firefox 行動版,Firefox Android,Mozilla, Firefox, Thunderbird, Gecko, Boot to Gecko, B2G, Boot 2 Gecko, 謀智, 火狐, 雷鳥, Open Source, Free Software, Open Web, 開放原始碼, 開放源碼, 開源, 自由軟體, 開放網';
+		$data['ogimage'] = 'http://fun.mozilla.com.tw/assets/pic/xmas2012/share_FB.jpg';
+		$data['cards_url'] = 'http://fun.mozilla.com.tw/xmas/cards/'.$id.'/';
+		$data['js_arr'] = '';
 		$this->load->model('Xmas_db_model');
 		$getPath = $this->Xmas_db_model->get_path($id);
-		$data['content'] = '<img src="/assets/upload/'.$getPath.'" alt="Firefox 電子聖誕卡" />';
+		$data['content'] = '<img class="img-card" src="/assets/upload/'.$getPath.'" alt="Firefox 電子聖誕卡" />';
 		
 		$this->layout->view('xmas_card', $data);
 	}

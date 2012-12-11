@@ -6,13 +6,8 @@ class Index extends CI_Controller {
   }
   
 	public function index(){
-	  $this->load->library('Layout');
-		$data['title'] = 'title';
-		$data['heading'] = 'heading text';
-		$data['content'] = 'hi';
-		
-		$this->layout->view('index_page', $data);
-		//$this->load->view('blog_message');
+	   header ('HTTP/1.1 301 Moved Permanently');
+     header ('Location: /xmas/');
 	}
 
   private function _utility(){  

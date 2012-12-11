@@ -1,12 +1,19 @@
+<div id="decorate"></div>
 <hgroup id="main-feature">
-  <h1>Firefox 聖誕報佳音</h1>
-  <h2>我愛網路，我願意與Firefox一同守護網路開放自由</h2>
+  <div id="header-fx">
+    <h1>Firefox 聖誕報佳音</h1>
+    <h2>我愛網路，我願意與Firefox一同守護網路開放自由</h2>
+  </div>
   <div id="feature-des">
     <p>在充滿愛、祝福、喜悅的聖誕佳節，Firefox 依然相信網際網路是全球公用資源，理應保持開放並可依個人意願決定網路的使用方式。</p>
     <p>是的! 你/妳可以自己決定喜愛的網路瀏覽方式。</p>
     <p>Firefox 邀請你/妳透過聖誕佳音卡，與我們一同傳遞網路開放自由創新的理念。</p>
     <p>參與方式：即日起至 2012/12/25 日，用以下 Firefox 的專案圖示佈置你/妳專屬的 Firefox 聖誕樹。寫下你的聖誕祝福，並分享到社群網站個人頁面，
     即有機會獲得『Firefox 我愛網路 聖誕好禮』！</p>
+    <div id="snow-house">  
+      <div id="snow_place">
+      </div>
+    </div>
   </div>
 </hgroup>
 <div id="main-content">
@@ -18,13 +25,13 @@
         </div>
         <ul id="bg-select">
           <li class="bg-check">
-            <img src="/assets/pic/xmas2012/xmas1.png" alt="xmas background 1" />
+            <img src="/assets/pic/xmas2012/game_1_small.png" data-original="/assets/pic/xmas2012/game_1.png" alt="xmas background 1" />
           </li>
           <li>
-            <img src="/assets/pic/xmas2012/xmas2.png" alt="xmas background 2" />
+            <img src="/assets/pic/xmas2012/game_2_small.png" data-original="/assets/pic/xmas2012/game_2.png" alt="xmas background 2" />
           </li>
           <li>
-            <img src="/assets/pic/xmas2012/xmas3.png" alt="xmas background 3" />
+            <img src="/assets/pic/xmas2012/game_3_small.png" data-original="/assets/pic/xmas2012/game_3.png" alt="xmas background 3" />
           </li>
         </ul>
       </div>
@@ -34,56 +41,74 @@
     </div>
     <div class="icon_wrapper">
       <ul id="icon-select">
-      <li class="default">
-        <img src="/assets/pic/xmas2012/icon/icon1.png" alt="Firefox 大眾專屬瀏覽器" />
+      <li class="default" data-use="0" id="icon-1">
+        <div class="del_box"></div>
+        <img src="/assets/pic/xmas2012/icon/firefox_logo-OK.png" alt="Firefox 大眾專屬瀏覽器" />
         <div class="icon-desc">Firefox 大眾專屬瀏覽器</div>
       </li>
-      <li class="default">
-        <img src="/assets/pic/xmas2012/icon/icon2.png" alt="Firefox Beta 早鳥專屬瀏覽器" />
+      <li class="default" data-use="0" id="icon-2">
+        <div class="del_box"></div>
+        <img src="/assets/pic/xmas2012/icon/firefox-beta_logo-OK.png" alt="Firefox Beta 早鳥專屬瀏覽器" />
         <div class="icon-desc">Firefox Beta 早鳥專屬瀏覽器</div>
       </li>
-      <li class="default">
-        <img src="/assets/pic/xmas2012/icon/icon3.png" alt="Firefox Aurora 開發者專屬瀏覽器" />
+      <li class="default" data-use="0" id="icon-3">
+        <div class="del_box"></div>
+        <img src="/assets/pic/xmas2012/icon/firefox-aurora_logo-OK.png" alt="Firefox Aurora 開發者專屬瀏覽器" />
         <div class="icon-desc">Firefox Aurora 開發者專屬瀏覽器</div>
       </li>
-      <li class="default">
-        <img src="/assets/pic/xmas2012/icon/icon4.png" alt="Firefox Nightly 先鋒者專屬瀏覽器" />
+      <li class="default" data-use="0" id="icon-3">
+        <div class="del_box"></div>
+        <img src="/assets/pic/xmas2012/icon/firefox-nightly_logo-OK.png" alt="Firefox Nightly 先鋒者專屬瀏覽器" />
         <div class="icon-desc">Firefox Nightly 先鋒者專屬瀏覽器</div>
       </li>
-      <li class="default">
-        <img src="/assets/pic/xmas2012/icon/icon5.png" alt="Firefox for Android 行動版瀏覽器" />
+      <li class="default" data-use="0" id="icon-5">
+        <div class="del_box"></div>
+        <img src="/assets/pic/xmas2012/icon/Firefox_for_Android.png" alt="Firefox for Android 行動版瀏覽器" />
         <div class="icon-desc">Firefox for Android 行動版瀏覽器</div>
       </li>
-      <li class="default">
-        <img src="/assets/pic/xmas2012/icon/icon6.png" alt="Firefox OS 開放網路行動作業系統" />
+      <li class="default" data-use="0" id="icon-6">
+        <div class="del_box"></div>
+        <img src="/assets/pic/xmas2012/icon/firefox-os.png" alt="Firefox OS 開放網路行動作業系統" />
         <div class="icon-desc">Firefox OS 開放網路行動作業系統</div>
       </li>
-      <li class="default">
-        <img src="/assets/pic/xmas2012/icon/icon7.png" alt="Firefox Marketplace 開放網路打造App商城" />
+       <li class="default" data-use="0" id="icon-7">
+        <div class="del_box"></div>
+        <img src="/assets/pic/xmas2012/icon/thunderbird-beta_OK.png" alt="Thunderbird 安全快速便利郵件軟體" />
+        <div class="icon-desc">Thunderbird 安全快速便利郵件軟體</div>
+      </li>
+      <li class="default" data-use="0" id="icon-8">
+        <div class="del_box"></div>
+        <img src="/assets/pic/xmas2012/icon/firefox-marketplace_OK.png" alt="Firefox Marketplace 開放網路打造App商城" />
         <div class="icon-desc">Firefox Marketplace 開放網路打造App商城</div>
       </li>
-      <li class="default">
-        <img src="/assets/pic/xmas2012/icon/icon8.png" alt="Persona 高隱私網路身份識別系統" />
+      <li class="default" data-use="0" id="icon-9">
+        <div class="del_box"></div>
+        <img src="/assets/pic/xmas2012/icon/badge-persona_OK.png" alt="Persona 高隱私網路身份識別系統" />
         <div class="icon-desc">Persona 高隱私網路身份識別系統</div>
       </li>
-      <li class="default">
-        <img src="/assets/pic/xmas2012/icon/icon10.png" alt="WebMaker 網頁撰寫教育專案" />
+      <li class="default" data-use="0" id="icon-10">
+        <div class="del_box"></div>
+        <img src="/assets/pic/xmas2012/icon/mozilla-webmaker_OK.png" alt="WebMaker 網頁撰寫教育專案" />
         <div class="icon-desc">WebMaker 網頁撰寫教育專案</div>
       </li>
-      <li class="default">
-        <img src="/assets/pic/xmas2012/icon/icon11.png" alt="Firefox Developer Tools 瀏覽器內建開發者工具" />
+      <li class="default" data-use="0" id="icon-11">
+        <div class="del_box"></div>
+        <img src="/assets/pic/xmas2012/icon/Firefox_DEV.png" alt="Firefox Developer Tools 瀏覽器內建開發者工具" />
         <div class="icon-desc">Firefox Developer Tools 瀏覽器內建開發者工具</div>
       </li>
-      <li class="default">
-        <img src="/assets/pic/xmas2012/icon/icon12.png" alt="Bugzilla 程式錯誤回報系統" />
+      <li class="default" data-use="0" id="icon-12">
+        <div class="del_box"></div>
+        <img src="/assets/pic/xmas2012/icon/Bugzilla.png" alt="Bugzilla 程式錯誤回報系統" />
         <div class="icon-desc">Bugzilla 程式錯誤回報系統</div>
       </li>
-      <li class="default">
-        <img src="/assets/pic/xmas2012/icon/icon13.png" alt="Firebug 網頁開發除錯工具" />
+      <li class="default" data-use="0" id="icon-13">
+        <div class="del_box"></div>
+        <img src="/assets/pic/xmas2012/icon/firebug.png" alt="Firebug 網頁開發除錯工具" />
         <div class="icon-desc">Firebug 網頁開發除錯工具</div>
       </li>
-      <li class="default">
-        <img src="/assets/pic/xmas2012/icon/icon14.png" alt="Gecko 內存於 Firefox 的核心引擎" />
+      <li class="default" data-use="0" id="icon-14">
+        <div class="del_box"></div>
+        <img src="/assets/pic/xmas2012/icon/Gecko.png" alt="Gecko 內存於 Firefox 的核心引擎" />
         <div class="icon-desc">Gecko 內存於 Firefox 的核心引擎</div>
       </li>
     </ul>
@@ -94,15 +119,40 @@
       <input type="button" value="delete" id="del_bt" />
     </div>
   </section>
+  <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1&appId=266112973491035";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- Place this tag after the last +1 button tag. -->
+  <script type="text/javascript">
+    window.___gcfg = {lang: 'zh-TW'};
+  
+    (function() {
+      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+      po.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+  </script>
   <section class="bt_content">
+    <textarea name="u_text" id="u_text" class="info" value="" placeholder="請輸入您的祝福！"></textarea><br />
+    字數：<span id="word_count">0</span>/25<br/>
     <h3>留下電子信箱參與『Firefox 我愛網路 聖誕好禮』！</h3>
     <input name="u_email" id="u_email" value="" placeholder="請輸入您常用的電子信箱！" class="info" required="" type="email">
     <input name="id_privacy" id="id_privacy" type="checkbox">
     <span class="id_privacy_title">我要訂閱 Mozilla 電子報並已同意 Mozilla 的&nbsp;
     <a target="_blank" href="https://www.mozilla.org/en-US/privacy-policy">隱私資料政策</a></span><br />
-    字數：<span id="word_count">0</span>/35<br />
-    <textarea name="u_text" id="u_text" class="info" value="" placeholder="請輸入您的祝福！"></textarea><br />
-    <div class="c_bt" id="c_save">存檔</div>
-    <div class="c_bt" id="c_reset">再玩一次</div>
+    <div class="c_bt" id="c_save"><span class="bt_title">存檔</span></div>
+    <div class="c_bt" id="c_reset"><span class="bt_title">重新佈製</span></div>
+  </section>
+  <section class="social_content">
+    <!-- Place this tag where you want the +1 button to render. -->
+    <div class="g-plusone" data-size="medium"></div>
+    <div class="fb-like" data-href="http://fun.mozilla.com.tw/xmas/" data-send="false" data-layout="button_count" data-width="250" data-show-faces="false" data-font="arial"></div>
   </section>
 </div>

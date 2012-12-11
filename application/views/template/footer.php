@@ -12,10 +12,27 @@
             <div id="sub-footer" class="footer-content">
              <div id="sub-footer-contents">
               <strong>與我們為友</strong>
-              <?php
-                // show footer  
-                //sub_footerBar();
-              ?>
+              <ul>
+                <li id="footer-Facebook">
+                  <a href="https://www.facebook.com/MozillaTaiwan">Facebook</a>
+                </li>
+                <li id="footer-Google+">
+                  <a href="https://plus.google.com/u/0/114653167240123163859/posts">Google+</a>
+                </li>
+                <li id="footer-Plurk">
+                  <a href="http://plurk.com/MozillaTaiwan">Plurk</a>
+                </li>
+                <li id="footer-Youtube">
+                  <a href="http://www.youtube.com/user/MozillaTaiwan">Youtube</a>
+                </li>
+                <li id="footer-Flickr">
+                  <a href="http://www.flickr.com/photos/mozillataiwan/">Flickr</a>
+                </li>
+                <li id="footer-電子報">
+                  <a href="http://mozilla.com.tw/join_us/">電子報</a>
+                </li>
+                <li class="close"></li>
+              </ul>
             </div>
            </div><!--end sub-footer-->
             <div id="copyright" class="footer-content">
@@ -35,7 +52,7 @@
     </noscript>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 		<!--<script type="text/javascript" src="/assets/js/main.js"></script>-->
-		<script type="text/javascript" src="/assets/js/xmas.js"></script>
+		<?php echo $js_arr;?>
 		<script type="text/javascript">
       $(function(){
         $('.mozilla').click(function(e){
