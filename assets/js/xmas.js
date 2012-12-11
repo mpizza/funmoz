@@ -88,8 +88,7 @@ $(function(){
     $.post('/xmas/save_canvas/',{dataurl:dataimgurl, u_email:u_email, u_checked:u_check},function(data){
       //$('#test').html(data);
       if(data!=='failed'){
-        //window.location = '/xmas/cards/'+data+'/';
-        alert('/xmas/cards/'+data+'/');
+        window.location = '/xmas/cards/'+data+'/';
       }
     });
     
