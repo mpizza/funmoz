@@ -54,7 +54,9 @@ $(function(){
   $('#right_bt').on('click',function(){
     pubs.rotateBox(1);
   });
-  
+  $('#u_text').on('click', function(){
+    $('#u_text').attr('placeholder','');
+  });
   $('#c_reset').on('click', function(){
     $('#u_text').val('');
     location.reload();
