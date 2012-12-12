@@ -36,6 +36,7 @@ $(function(){
     attr_id = $(this).attr('id');
     if(use_key == 0){
       setICONsrc($(this).children('img').attr('src'), $(this).children('img').attr('alt'), attr_id);
+      _gaq.push(['_trackEvent', '2012Xmas', 'icon', $(this).children('img').attr('alt')]);
       $(this).addClass('used').attr('data-use','1');
     }else{
       pubs.removeShape(attr_id);
@@ -76,6 +77,7 @@ $(function(){
   });
   
   $('#c_save').on('click', function(){
+    _gaq.push(['_trackEvent', '2012Xmas', 'save_card', '']);
     var u_email = $('#u_email').val(),
         u_text = $('#u_text').val(),
         u_check = $('#id_privacy').attr('checked');

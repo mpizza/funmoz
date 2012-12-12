@@ -57,7 +57,7 @@
       $(function(){
         $('.fb').on('click',function(e){
           e.preventDefault();
-          //_gaq.push(['_trackEvent', 'firefoxandbbs', 'share', '']);
+          _gaq.push(['_trackEvent', '2012Xmas', 'fb', 'fbshare']);
           var encode_url=fixedEncodeURI($(this).attr('href'));
           window.open(encode_url);
         });

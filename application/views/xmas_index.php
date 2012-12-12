@@ -148,12 +148,12 @@
           </a>
         </li>
         <li>
-          <a class="pk" href="javascript: void(window.open('http://www.plurk.com/?qualifier=shares&amp;status=' .concat(encodeURIComponent('http://fun.mozilla.com.tw/xmas/')) .concat(' ') .concat('(') .concat(encodeURIComponent('Firefox 聖誕報佳音')) .concat(')')));">
+          <a class="pk" href="javascript: void(_gaq.push(['_trackEvent', '2012Xmas', 'plurk', 'plurk_share']);window.open('http://www.plurk.com/?qualifier=shares&amp;status=' .concat(encodeURIComponent('http://fun.mozilla.com.tw/xmas/')) .concat(' ') .concat('(') .concat(encodeURIComponent('Firefox 聖誕報佳音')) .concat(')')));">
             [推到Plurk]
           </a>
         </li>
         <li id="gplist" class="default-gp">
-          <div class="g-plusone" data-size="medium" data-annotation="inline"  data-href="http://fun.mozilla.com.tw/xmas/" data-width="120"></div>
+          <div onClick="_gaq.push(['_trackEvent', '2012Xmas', 'gp', 'gpshare']);" class="g-plusone" data-size="medium" data-annotation="inline"  data-href="http://fun.mozilla.com.tw/xmas/" data-width="120"></div>
         </li>
       </ul>
   </section>
