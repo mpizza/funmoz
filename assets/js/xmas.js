@@ -41,7 +41,7 @@ $(function(){
       pubs.removeShape(attr_id);
       $(this).removeClass('used').attr('data-use','0');
     }
-  });
+  });//
   
   $('#del_bt').on('click', function(){
     pubs.removesel();
