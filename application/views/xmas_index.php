@@ -24,13 +24,13 @@
           <span id="hide" class="menu-bt">hide</span><span id="show" class="menu-bt">show</span>
         </div>
         <ul id="bg-select">
-          <li class="bg-check">
+          <li>
             <img src="/assets/pic/xmas2012/game_1_small.png" data-original="/assets/pic/xmas2012/game_1.png" alt="xmas background 1" />
           </li>
           <li>
             <img src="/assets/pic/xmas2012/game_2_small.png" data-original="/assets/pic/xmas2012/game_2.png" alt="xmas background 2" />
           </li>
-          <li>
+          <li class="bg-check">
             <img src="/assets/pic/xmas2012/game_3_small.png" data-original="/assets/pic/xmas2012/game_3.png" alt="xmas background 3" />
           </li>
         </ul>

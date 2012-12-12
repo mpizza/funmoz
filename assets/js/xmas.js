@@ -31,7 +31,7 @@ $(function(){
      setBGsrc($('li.bg-check img').attr('data-original'));
   });
   
-  $('ul#icon-select li').on('click',function(){
+  $('ul#icon-select li').on('mousedown',function(){
     var use_key = $(this).attr('data-use'),
     attr_id = $(this).attr('id');
     if(use_key == 0){
@@ -56,6 +56,7 @@ $(function(){
   });
   
   $('#c_reset').on('click', function(){
+    $('#u_text').val('');
     location.reload();
   });
   
