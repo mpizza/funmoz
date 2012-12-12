@@ -33,7 +33,7 @@
     </ul>
   </section>
   <section class="url_link">
-  將您的專屬網址分享給好友： <br/>
+  將您的聖誕卡專屬網址分享給好友： <br/>
   <input type="text" value="<?php echo $cards_url; ?>" id="c_url">
   </section>
 </div>
