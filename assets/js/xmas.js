@@ -31,7 +31,7 @@ $(function(){
      setBGsrc($('li.bg-check img').attr('data-original'));
   });
   
-  $('ul#icon-select li').on('touchstart mousedown',function(){
+  $('ul#icon-select li').bind('touchstart mousedown',function(){
     var use_key = $(this).attr('data-use'),
     attr_id = $(this).attr('id');
     if(use_key == 0){
