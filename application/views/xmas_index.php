@@ -139,7 +139,7 @@
     <a target="_blank" href="https://www.mozilla.org/en-US/privacy-policy">隱私資料政策</a></span><br />
   </section>
   <section class="social_content">
-    <div class="c_bt" id="c_save"><span class="bt_title">存檔</span></div>
+    <div class="c_bt" id="c_save"><span class="bt_title">完成</span></div>
     <div class="c_bt" id="c_reset"><span class="bt_title">重新佈製</span></div>
     <ul class="sharelist">
         <li>
