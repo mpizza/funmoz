@@ -10,6 +10,7 @@
     <p>參與方式：即日起至 2013/01/07日，用以下的 Firefox 專案圖示佈置你/妳專屬的 Firefox 跨年卡。寫下你對網路的新年願望，並分享到社群網站個人頁面，即有機會獲得『Firefox 我愛網路 新年好禮』！</p>
   </div>
 </hgroup>
+<div id="colorfulband"></div>
 <div id="main-content">
   <section class="main_section">
     <div class="canvas_wrapper">
@@ -21,10 +22,10 @@
           <li>
             <img src="/assets/pic/newyear2013/card-1-small.png" data-original="/assets/pic/newyear2013/card-1.jpg" alt="newyear background 1" />
           </li>
-          <li>
+          <li class="bg-check">
             <img src="/assets/pic/newyear2013/card-2-small.png" data-original="/assets/pic/newyear2013/card-2.jpg" alt="newyear background 2" />
           </li>
-          <li class="bg-check">
+          <li>
             <img src="/assets/pic/newyear2013/card-3-small.png" data-original="/assets/pic/newyear2013/card-3.jpg" alt="newyear background 3" />
           </li>
         </ul>
@@ -126,7 +127,7 @@
   <section class="bt_content">
     <textarea name="u_text" id="u_text" class="info" value="" placeholder="請輸入您的祝福！"></textarea><br />
     字數：<span id="word_count">0</span>/25<br/>
-    <h3>留下電子信箱參與『Firefox 我愛網路 聖誕好禮』！</h3>
+    <h3>留下電子信箱參與『Firefox 我愛網路 跨年好禮』！</h3>
     <input name="u_email" id="u_email" value="" placeholder="請輸入您常用的電子信箱！" class="info" required="" type="email">
     <input name="id_privacy" id="id_privacy" type="checkbox">
     <span class="id_privacy_title">我要訂閱 Mozilla 電子報並已同意 Mozilla 的&nbsp;

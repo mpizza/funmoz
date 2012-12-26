@@ -29,9 +29,11 @@ div#decorate{
   margin:20px 0 0 0; 
   div#header-fx{
     background:url('/assets/less/img/newyear/slogn.png') no-repeat;
+    height:68px;
     h1, h2{
       text-indent:-1000000px;
       margin:0px;
+      height:0px;
     }
   }
   div#feature-des{
@@ -41,6 +43,7 @@ div#decorate{
       width:710px;
       color:#fff;
     }
+    
     div#snow-house{
       background:url('/assets/less/img/xmas/snow.png') no-repeat;
       width:212px;
@@ -53,10 +56,21 @@ div#decorate{
 }
 
 #main-content{
-  margin:30px 0 0 0;
+  margin:85px 0 0 0;
   background:url('/assets/less/img/newyear/bg-2.png') no-repeat 0px 0px;
   position:relative;   
   overflow:hidden;
+}
+
+div#colorfulband{
+  display:block;
+  width:150px;
+  height:256px;
+  position:absolute;
+  top:380px;
+  left:-30px;
+  background:url('/assets/less/img/newyear/bow.png') no-repeat;
+  z-index:2;
 }
 div.bg-menu{
   position:absolute;
@@ -124,7 +138,7 @@ section.main_section{
     overflow:hidden;
     width:802px;
     height:602px;
-    margin:160px 0 0 20px;
+    margin:160px 0 0 35px;
     canvas#pad{
       border:1px solid #ccc;
       -webkit-border-radius: 50px;

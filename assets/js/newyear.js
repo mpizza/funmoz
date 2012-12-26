@@ -352,7 +352,7 @@ CanvasState.prototype.showFillText = function showFillText(str) {
 CanvasState.prototype.showtool = function showtool(posx, posy){
   this.toolbox.style.display = 'block';
   this.toolbox.style.top = posy+170+'px';
-  this.toolbox.style.left = posx+40+'px';
+  this.toolbox.style.left = posx+55+'px';
 }
 
 CanvasState.prototype.hidetool = function hidetool(){
