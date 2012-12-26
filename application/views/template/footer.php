@@ -51,7 +51,6 @@
     <noscript>
     </noscript>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-		<!--<script type="text/javascript" src="/assets/js/main.js"></script>-->
 		<?php echo $js_arr;?>
 		<script type="text/javascript">
       $(function(){

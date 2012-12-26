@@ -1,0 +1,1 @@
+重新載入頁面以取得資源: http://i.firefoxchina.cn/newtab/china-start/js/track.js?v2

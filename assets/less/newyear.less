@@ -1,0 +1,445 @@
+/*clear*/
+.after_close{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.space #wrapper {
+    background-color: rgb(4, 2, 11);
+    background-repeat: repeat-x;
+    background-image: url("/media/img/sandstone/bg-space.png");
+}
+
+div#outer-wrapper{
+  background-color: rgb(4, 2, 11);
+  background-repeat: repeat-x;
+  background-image:url('/assets/less/img/newyear/bg.jpg');
+}
+div#decorate{
+  width:390px;
+  height:100px;
+  display:block;
+  position:absolute;
+  top:0px;
+  left:450px;
+}
+#main-feature {
+  margin:20px 0 0 0; 
+  div#header-fx{
+    background:url('/assets/less/img/newyear/slogn.png') no-repeat;
+    h1, h2{
+      text-indent:-1000000px;
+      margin:0px;
+    }
+  }
+  div#feature-des{
+    p{
+      font-size:16px;
+      line-height: 1.2em;
+      width:710px;
+      color:#fff;
+    }
+    div#snow-house{
+      background:url('/assets/less/img/xmas/snow.png') no-repeat;
+      width:212px;
+      height:284px;
+      position:absolute;
+      top:70px;
+      left:750px;
+    }
+  }
+}
+
+#main-content{
+  margin:30px 0 0 0;
+  background:url('/assets/less/img/newyear/bg-2.png') no-repeat 0px 0px;
+  position:relative;   
+  overflow:hidden;
+}
+div.bg-menu{
+  position:absolute;
+  top:0px;
+  left:-3px;
+  z-index:2;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+  background:rgba(255, 255, 255, 0.4);
+  height:100%;
+  -webkit-border-top-left-radius: 50px;
+  -webkit-border-bottom-left-radius: 50px;
+  -moz-border-radius-topleft: 50px;
+  -moz-border-radius-bottomleft: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  div.sh_bt{
+    float:right;
+  }
+  &.hide-menu{
+    left:-105px;
+  }
+  &:after{
+    .after_close;
+  }
+}
+
+ul#bg-select{
+  width:70px;
+  padding:0px;
+  margin:70px 0 0 20px;
+  -webkit-transition: all linear 0.15s;
+  -moz-transition: all linear 0.15s;
+  -o-transition: all linear 0.15s;
+  -ms-transition: all linear 0.15s;
+  transition: all linear 0.15s;
+  float:left;
+  &.hide{
+    height:0px;
+  }
+  
+  li{
+     width:100%;
+     margin-bottom:20px;
+    &.bg-check{
+    }
+    img{
+      width:100%;
+      border:0px;
+      &:hover{
+        cursor:pointer;
+      }
+    }
+  }
+}
+section.main_section{
+  &:after{
+    .after_close
+  }
+  div.canvas_wrapper{
+    position:relative;   
+    overflow:hidden;
+    width:802px;
+    height:602px;
+    margin:160px 0 0 20px;
+    canvas#pad{
+      border:1px solid #ccc;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      border-radius: 50px;
+    }
+    float:left;
+  }
+  
+  div.icon_wrapper{ 
+    float:left;
+    width:120px;
+    margin:200px 0 0 0px;
+    background:#fff;
+    ul{
+      margin:0px;
+      width:95%;
+      height:505px;
+      overflow-y:auto;
+      li.default{
+        position:relative;
+        display:block;
+      }
+      li.default{
+        height:85px;
+        img{
+          margin:10px 0 0 10px;
+          width:70px;
+        }
+        div.icon-desc{
+          background: rgba(0, 0, 0 ,0.6);
+          position:absolute;
+          bottom:-40px;
+          left:0px;
+          padding:3px 0 3px 3px;
+          color:#fff;
+          -webkit-transition: all linear 0.3s;
+          -moz-transition: all linear 0.3s;
+          -o-transition: all linear 0.3s;
+          -ms-transition: all linear 0.3s;
+          transition: all linear 0.3s;
+          z-index:-2;
+          &:hover{
+            cursor:pointer;
+          }
+        }
+        
+        &:hover div.icon-desc{
+          bottom:3px;
+          z-index:2;
+        }
+        
+        div.del_box{
+          position:absolute;
+          top:10px;
+          left:60px;
+          display:none;
+          width:25px;
+          height:25px;
+          background:rgba(255, 255, 255, 0) url('/assets/less/img/xmas/button_5.png') no-repeat;
+          background-position:-48px -2px;
+        }
+      }
+      li.used{
+        div.del_box{
+          display:block;
+        }
+      }
+      li img{
+        width:100%;
+        &:hover{
+          cursor:pointer;
+        }
+      }
+    }
+  }
+}
+section.bt_content{
+  color:#fff;
+  margin:60px 0px 20px 20px;
+  &:after{
+    .after_close;
+  }
+  
+  h3{
+    color:#fff;
+  }
+}
+
+div.c_bt{
+  display:block;
+  padding:5px;
+  font-size:16px;
+  text-align:center;
+  margin:20px 0 0 0px;
+  float:left;
+  width:116px;
+  height:75px;
+  color:#000;
+  background:url('/assets/less/img/newyear/button.png') no-repeat;
+  span.bt_title{
+    display:block;
+    margin:10px 0 0 0;
+    font-weight:bold;
+  }
+  &:hover{
+    cursor:pointer;
+  }
+  
+  &#c_reset{
+    background-position:-140px 0px;
+  }
+}
+
+.menu-bt{
+  display:block;
+  width:29px;
+  height:131px;
+  margin:50px -30px 0 20px;
+  text-indent:-2000px;
+  background:url('/assets/less/img/xmas/button_4.png') no-repeat;
+  &:hover{
+    cursor:pointer;
+  }
+}
+span#show{
+  background:url('/assets/less/img/xmas/button_3.png') no-repeat;
+}
+div#tool{
+  position:absolute;
+  display:none;
+  input{
+    margin:0px;
+    padding:0px;
+    border:0;
+    background:rgba(255, 255, 255, 0) url('/assets/less/img/xmas/button_5.png') no-repeat 0px -2px;
+    width:25px;
+    height:25px;
+    text-indent:-10000000px;
+  }
+  
+  input#right_bt{
+    background-position:-25px -2px;
+  }
+  
+   input#del_bt{
+    width:25px;
+    height:25px;
+    background-position:-48px -2px;
+  }
+}
+
+.info{
+  width:260px;
+  margin:5px 0;
+}
+
+#u_text{
+  width:800px;
+  height:30px;
+  margin:5px 0;
+}
+
+img.img-card{
+  margin:150px 0 0 80px;
+}
+
+div#snow_place{
+  position:relative;
+  top:30px;
+  left:30px;
+  width:160px;
+  height:130px;
+}
+
+section.social_content{
+  margin:0 0 40px 20px;
+  h2{
+    color:#fff;
+  }
+}
+
+section.again_bt{
+  margin:50px 0 0 0;
+  .c_bt{
+    margin:10px 0 0 10px;
+  }
+   &:after{
+    .after_close;
+  }
+}
+
+div.social-tool{
+  margin:10px 0 0 20px;
+}
+
+ul.sharelist{
+  display:inline-block;
+  margin:25px 0px 0px 0px;
+  width:500px;
+}
+
+ul.sharelist:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+ul.sharelist li{
+  margin:0 0 0 20px;
+  float:left;
+}
+ul.sharelist a,
+a.fanspage, a.fb{
+  display:inline-block;
+  width: 40px;
+  height: 40px;
+  background: url('/assets/less/img/mozcomtw/shareicon-small.png') no-repeat transparent;
+  background-position: 0px 0px;
+  text-indent:-10000px;
+}
+p.inode{
+  color:#f00;
+  font-size:20px;
+}
+ul.sharelist a.fb, a.fb{
+  background-position: 0 -90px;
+}
+ul.sharelist a.gp{
+  background:none;
+  
+}
+ul.sharelist li#gplist{
+  height:50px;
+}
+
+ul.sharelist li.default-gp{
+ padding:10px 0 0 0; 
+}
+
+ul.sharelist li.show-gp a.gp{
+ z-index:0;
+ background: none;
+}
+ul.sharelist li.show-gp div.gplusonebox{
+ z-index:10;
+}
+
+
+ul.sharelist a.pk{
+ background-position: 0 -270px;
+}
+ul.sharelist a.em{
+  background-position: 0 0;
+}
+
+.gplusonebox {
+  width: 40px;
+  height: 40px;
+  padding:0px;
+  position: relative;
+  top:-30px;
+  left:0px;
+}
+.url_link{
+  margin:0 0 0 20px;
+  color:#fff;
+  input{
+    width:320px;
+  }
+}
+div#mask{
+  position:absolute;
+  top:0px;
+  left:0px;
+  background: rgba(0, 0, 0 ,0.6);
+  width:100%;
+  z-index:10;
+  
+  img{
+    position:absolute;
+    left:35%;
+  }
+}
+@media all and (min-width: 1440px) and (max-width: 1920px) {
+    div#outer-wrapper {
+      -moz-background-size: 1920px 582px;           /* Gecko 1.9.2 (Firefox 3.6) */
+         -o-background-size: 1920px 582px;        /* Opera 9.5 */
+    -webkit-background-size: 1920px 582px;           /* Safari 3.0 */
+            background-size: 1920px 582px;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+    }
+}
+@media all and (min-width: 1280px) and (max-width: 1440px) {
+    div#outer-wrapper {
+       -moz-background-size: 1440px 437px;           /* Gecko 1.9.2 (Firefox 3.6) */
+         -o-background-size: 1440px 437px;          /* Opera 9.5 */
+    -webkit-background-size: 1440px 437px;             /* Safari 3.0 */
+            background-size: 1440px 437px;              /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+    }
+}
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    div#outer-wrapper {
+      -moz-background-size: 1280px 388px;           /* Gecko 1.9.2 (Firefox 3.6) */
+         -o-background-size: 1280px 388px;          /* Opera 9.5 */
+    -webkit-background-size: 1280px 388px;          /* Safari 3.0 */
+            background-size: 1280px 388px;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+    }
+}
+
+@media all and (max-width: 1024px){
+    div#outer-wrapper {
+       -moz-background-size: 1024px 311px;           /* Gecko 1.9.2 (Firefox 3.6) */
+         -o-background-size: 1024px 311px;         /* Opera 9.5 */
+    -webkit-background-size: 1024px 311px;          /* Safari 3.0 */
+            background-size: 1024px 311px;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+    }
+}
