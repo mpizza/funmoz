@@ -55,7 +55,18 @@ class Newyear extends CI_Controller {
       header ('Location: /newyear/');
     }
 	}
-
+  function card_list($dedubp = 'ok'){
+   $this->load->model('Xmas_db_model'); 
+   $card_list_info = $this->Xmas_db_model->get_list($dedubp);
+   foreach ($card_list_info->result_array() as $row){
+     echo $row['id'];
+     echo ",";
+     echo $row['u_email'];
+     echo ",";
+     echo $row['upload_date'];
+     echo "<br />";
+    }
+  }
   private function _utility(){  
     // private function
   }
